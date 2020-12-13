@@ -78,7 +78,7 @@ sudo dpkg-reconfigure locales
 
 Choose the locales that you need or want. My setup looks like this:
 
-![locales setup](/images/post/2020/01/00_locales.png)
+![locales setup](00_locales.png)
 
 If you don't know what to choose, go with your language and the UTF-8 version.
 
@@ -144,7 +144,7 @@ sudo apt-get install htop lsof nmap arping vnstat vim pydf multitail
 `pydf` in combination with the alias from above displays a short and colored
 output when you list your diskspace with `df`.
 
-![an example output of `pf`](/images/post/2020/01/11_df_output.png)
+![an example output of `pf`](11_df_output.png)
 
 #### If you intent to install and use vnstat, you need to set it up
 
@@ -263,19 +263,19 @@ This is where we actually start. At the first start either connect your
 Raspberry Pi to an ethernet port or look out for a WiFi network called
 Pi-Star Setup.
 
-![Control Software configuration](/images/post/2020/01/01_control-software.png)
+![Control Software configuration](01_control-software.png)
 
 Make sure to use Duplex Repeater in order to use different RX and TX frequencies.
 
 ### MMDVMHost
 
-![MMDVMHost configuration](/images/post/2020/01/02_mmdvmhost.png)
+![MMDVMHost configuration](02_mmdvmhost.png)
 
 Choose the modes that you want to use. I only use DMR and POCSAG for now.
 
 ### General information about the station
 
-![general information](/images/post/2020/01/03_general.png)
+![general information](03_general.png)
 
 Put in your own callsign and your DMR-ID --
 [register your callsign](https://register.ham-digital.org/) if you don't have
@@ -292,7 +292,7 @@ one system at a time and move over to DMRGateway when you feel confident enough.
 The rewrite rules can be sometimes a bit tricky to set up.
 {{< /background >}}
 
-![DMR configuration](/images/post/2020/01/04_dmrconfig.png)
+![DMR configuration](04_dmrconfig.png)
 
 Choose the Brandmeister master server you want to connect to. Also set a
 password in [Brandmeisters SelfCare](https://brandmeister.network/?page=selfcare)
@@ -329,14 +329,14 @@ experimenting with this. I read a lot of times that `1000` should be fine with
 slower networks -- but you should definitely experiment yourself a bit with this
 setting.
 
-![DMR jitter configuration](/images/post/2020/01/05_exp_mmdvmhost-dmrnetwork.png)
+![DMR jitter configuration](05_exp_mmdvmhost-dmrnetwork.png)
 
 Now let's have a look at the DMR Gateway configuration. Navigate to the DMR GW
 expert settings. Choose **DMR GW** of the upper line (Quick Edit).
 
-![DMR Network 1 configuration](/images/post/2020/01/06_exp_dmrgw-dmrnetwork1.png)
+![DMR Network 1 configuration](06_exp_dmrgw-dmrnetwork1.png)
 
-![DMR Network 2 configuration](/images/post/2020/01/07_exp_dmrgw-dmrnetwork2.png)
+![DMR Network 2 configuration](07_exp_dmrgw-dmrnetwork2.png)
 
 Don't forget to save the settings.
 
@@ -404,7 +404,7 @@ frequencies in your country. You may use 439.987.500 in Germany.
 more frequencies.
 {{< /background >}}
 
-![POCSAG configuration](/images/post/2020/01/10_pocsag.png)
+![POCSAG configuration](10_pocsag.png)
 
 Read more on <https://hampager.de> and on <https://support.hampager.de>. You
 need to create an account to bind your callsign to a RIC. You also need a
@@ -417,7 +417,7 @@ install this stuff on a Pi :-)
 
 ### My Raspberry Pi 3 B
 
-![my raspberry pi 3](/images/post/2020/01/08_raspberrypi.jpg)
+![my raspberry pi 3](08_raspberrypi.jpg)
 
 ### And this is the admin page of the dashboard
 
@@ -426,7 +426,7 @@ expert settings and choose **BM API** in the lower line. It is somewhat in the
 middle of the page. To get an api key visit the
 [Brandmeister API Keys page](https://brandmeister.network/?page=profile-api).
 
-![Dashboard - Admin view](/images/post/2020/01/09_dashboard-admin.png)
+![Dashboard - Admin view](09_dashboard-admin.png)
 
 There are some more handy links for Brandmeister:
 

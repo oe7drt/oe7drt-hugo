@@ -107,10 +107,10 @@ Three to four minutes later (all three commands):
 
 This is the unmodified image: `opti_01.png`
 
-![Original image](/images/post/2020/01/opti_01.png)
+![Original image](opti_01.png)
 
 And this is the optimized image: `opti_02.png`
 
-![Original image](/images/post/2020/01/opti_02.png)
+![Original image](opti_02.png)
 
 Do you see much difference?

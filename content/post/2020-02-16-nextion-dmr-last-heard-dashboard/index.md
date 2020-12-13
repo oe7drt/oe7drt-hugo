@@ -15,11 +15,11 @@ probably the Layout of [PD0DIB].
 
 We're talking about a {{< badge "secondary" >}}NX3224T024_011{{< /badge >}}.
 
-![display](/images/post/2020/02/nxt_01_display.jpg)
+![display](nxt_01_display.jpg)
 
 My dashboard now looks like this:
 
-![display](/images/post/2020/02/nxt_01_display-lh.jpg)
+![display](nxt_01_display-lh.jpg)
 
 The number on the bottom right corner displays the actual status code sent by
 the MMDVMHost binary. A list of these codes can be seen [here].
@@ -30,7 +30,7 @@ Also have a look at the debug output within the Nextion Editor. You get to the
 second screen (SYSTEM screen) by touching/pressing the header of the dashboard.
 Within the system screen you can clear the dashboard.
 
-![overview](/images/post/2020/02/nxt_02_screens.png)
+![overview](nxt_02_screens.png)
 
 ## The editor
 

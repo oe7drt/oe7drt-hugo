@@ -25,7 +25,7 @@ I've lost a few words about this topic (Nextion) in general on my first post
 about my 2.4 inch nextion screen
 [in a previous article]({{ relref "/post/nextion-dmr-last-heard-dashboard.md#the-editor" }}).
 
-![Nextion back view / model](/images/post/2020/03/nxt07_00.jpg)
+![Nextion back view / model](nxt07_00.jpg)
 
 Have a look at the debug preview made within the Nextion Editor. The main screen
 is on the left and on the right side you see the system screen, this screen is
@@ -33,7 +33,7 @@ for system tasks and you need a working NextionDriver installation to use all
 the buttons. Read more about the system screen on the chapter
 [Management view](#management-view).
 
-![Screen Debug Preview](/images/post/2020/03/nxt07_01.png)
+![Screen Debug Preview](nxt07_01.png)
 
 {{< alert "danger" >}}You will need NextionDriver installed to use
 <strong>all the buttons</strong> on the SYSTEM page.{{< /alert >}}
@@ -106,7 +106,7 @@ is offline. Otherwise nginx would display a simple **Bad Gateway** error message
 The dashboard looks something like this. On your own transmissions there is also
 RSSI and BER information available.
 
-![7 inch dashboard](/images/post/2020/03/nxt07_02.jpg)
+![7 inch dashboard](nxt07_02.jpg)
 
 The duration of the transmission does not match with the duration on the web
 dashboard, but it gives a simple idea of its lenght. I'm not a good programmer

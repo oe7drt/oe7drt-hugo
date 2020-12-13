@@ -47,11 +47,11 @@ I made [another post when I did my first setup with Pi-Star][pistar-setup].
 
 ## Overview
 
-![my hotspot](/images/post/2020/04/hotspot_overview.jpg)
+![my hotspot](hotspot_overview.jpg)
 
 ## The Dashboard
 
-![Dashboard by Kim DG9VH](/images/post/2020/04/hotspot_dashboard.png)
+![Dashboard by Kim DG9VH](hotspot_dashboard.png)
 
 ## Hardware
 
@@ -60,7 +60,7 @@ I made [another post when I did my first setup with Pi-Star][pistar-setup].
 The main unit is probably the Raspberry Pi 4B. I got myself the version with 4GB
 RAM.
 
-![My RaspberryPi 4B](/images/post/2020/04/hotspot_raspi4b.jpg)
+![My RaspberryPi 4B](hotspot_raspi4b.jpg)
 
 ### MMDVM_HS_Dual_Hat
 
@@ -70,14 +70,14 @@ This is the duplex variant of MMDVM_HS_Hat. It uses [MMDVM_HS] by Andy CA6JAU.
 
 [MMDVM_HS]: #mmdvm-firmware
 
-![MMDVM HS Dual Hat](/images/post/2020/04/hotspot_modem.jpg)
+![MMDVM HS Dual Hat](hotspot_modem.jpg)
 
 ### Nextion Display
 
 I got myself a 7 inch screen from Nextion and built it into a metal plate that
 I bent and welded.
 
-![7 inch dashboard](/images/post/2020/04/hotspot_dashboard-nextion.jpg)
+![7 inch dashboard](hotspot_dashboard-nextion.jpg)
 
 ## Software
 
@@ -154,11 +154,11 @@ contain useful information most of the time.
 #endif
 ```
 
-![Make the modem flashable](/images/post/2020/04/hotspot_firmware.jpg)
+![Make the modem flashable](hotspot_firmware.jpg)
 
 Flashing will fail when you try to flash the firmware without this connection.
 
-![Flashing](/images/post/2020/04/hotspot_flashing.jpg)
+![Flashing](hotspot_flashing.jpg)
 
 But it helps when you got a pair of tweezers in your house. Just make sure to get
 good contact to the metal.
@@ -181,13 +181,13 @@ git checkout v1.4.8
 
 At the moment the hotspot sits behind the window and works quite good.
 
-![Another picture #1](/images/post/2020/04/hotspot_01.jpg)
+![Another picture #1](hotspot_01.jpg)
 
 The screen is not working 100% but I try my best to improve it every now and
 then. It is very hard to have all the used timers set up correctly and I'm still
 not sure how precise these timers work -- I have mixed feelings about this and
 I think that they are not as precise as I would need them :)
 
-![Another picture #2](/images/post/2020/04/hotspot_02.jpg)
+![Another picture #2](hotspot_02.jpg)
 
 It's not perfect but hey, we're hams right?

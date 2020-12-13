@@ -11,7 +11,7 @@ tags = []
 *Years ago we all played a game called Battlefield 2. The game bound us together
 as a team and family.*
 
-![wiw site logo sepia](/images/wiw-logo-sepia.jpg)
+![wiw site logo sepia](wiw-logo-sepia.jpg)
 
 {{< alert "secondary" >}}
 <strong>Migration status</strong><br>

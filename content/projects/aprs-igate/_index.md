@@ -21,3 +21,9 @@ found the link on an APRS website like `aprs.fi` or `aprsdirect.com`.
 As of today, August 2nd 2020 testing has begun and the I-Gate will pick up
 packets from within the house and some meters outside. I'll publish more data
 when I have collected more information.
+
+### Update on December 2020
+
+I sometimes test with a small HT antenna outdoor.
+
+Works good when I go up the mountain, but not as good when I go into the village.
