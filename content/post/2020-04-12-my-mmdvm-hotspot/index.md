@@ -43,7 +43,7 @@ online dashboard is also available -- I use the dashboard made by Kim DG9VH.
 
 I made [another post when I did my first setup with Pi-Star][pistar-setup].
 
-[pistar-setup]: {{< relref "post/2020-01-23-hs-dual-hat-with-pistar-v4.md" >}}
+[pistar-setup]: {{< relref "post/2020-01-23-hs-dual-hat-with-pistar-v4" >}}
 
 ## Overview
 
@@ -99,7 +99,7 @@ make -f Makefile.Pi
 
 ### DMRGateway
 
-[I had this once running]({{< relref "post/2020-01-23-hs-dual-hat-with-pistar-v4.md#talkgroup-setup" >}})
+[I had this once running]({{< relref "post/2020-01-23-hs-dual-hat-with-pistar-v4#talkgroup-setup" >}})
 but I ditched DMRGateway because I did not use any other Brandmeister talkgroup
 than {{< badge "primary" >}}2327{{< /badge >}} -- which is also available on
 the IPSC2 network.
