@@ -1,12 +1,12 @@
 [build]
 	publish = "public"
-	command = "hugo --gc --minify"
+	command = "hugo --gc --minify && npm run algolia"
 
 # this is currently Netlify Beta
 # https://github.com/netlify/build
 # https://www.netlify.com/build/plugins-beta/
-[build.lifecycle]
-  onSuccess = "npm run algolia"
+# [build.lifecycle]
+#   onSuccess = "npm run algolia"
 
 [context.production.environment]
 	HUGO_VERSION = "0.60.1"
