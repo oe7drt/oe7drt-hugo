@@ -17,15 +17,13 @@ This is probably the first DMR capable radio that is made for amateur radio.
 Obviosly not per default, but thanks to OpenGD77 it is now suited for amateur
 radio usage.
 
+![](logo.jpg)
+
 ## Original boot tone melody
 
 ```
 38,6,0,2,38,2,0,2,38,6,0,2,38,2,0,2,38,6
 ```
-
-## My boot-up picture
-
-![OE7DRT Boot-up picture white](rendeer512_white3.png)
 
 ## Importing DMR-IDs
 
