@@ -1,0 +1,16 @@
+   ___  ____  __  ________  ___________  ___  _______________ __
+  / _ \/ __ \/  |/  /  _/ |/ /  _/ ___/ / _ \/ __/  _/ ___/ // /
+ / // / /_/ / /|_/ _/ //    _/ // /__  / , _/ _/_/ // /__/ _  /
+/____/\____/_/  /_/___/_/|_/___/\___/ /_/|_/___/___/\___/_//_/
+                                                  oe7drt.com
+  Site Owner:   Dominic Reich, OE7DRT
+  Location:     JN57LB
+
+  Last updated: {{ site.LastChange }}
+  Language:     English
+  Built with:   Hugo {{ hugo.Version }} <https://gohugo.io>
+                Sublime Text 3 <https://www.sublimetext.com>
+                Netlify CI <https://www.netlify.com>
+                Github <https://github.com>
+                Sublime Merge <https://www.sublimemerge.com>
+                Gimp <https://www.gimp.org>

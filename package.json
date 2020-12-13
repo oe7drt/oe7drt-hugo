@@ -1,0 +1,24 @@
+{
+  "name": "oe7drt",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "algolia": "atomic-algolia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freefallcid/oe7drt.git"
+  },
+  "keywords": [],
+  "author": "Dominic Reich, OE7DRT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freefallcid/oe7drt/issues"
+  },
+  "homepage": "https://github.com/freefallcid/oe7drt#readme",
+  "dependencies": {
+    "atomic-algolia": "^0.3.19"
+  }
+}

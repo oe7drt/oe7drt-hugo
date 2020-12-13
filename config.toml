@@ -1,0 +1,74 @@
+baseURL = "https://oe7drt.com"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "OE7DRT"
+theme = "papercss-hugo-theme"
+googleAnalytics = "UA-131656855-5"
+enableRobotsTXT = true
+
+[sitemap]
+  ChangeFreq = "weekly"
+  #Priority = "1"
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  post = "/blog/:filename/"
+  # post = "/blog/:year/:month/:title/"
+  # post = "/blog/:year-:month-:day-:title/"
+
+[imaging]
+  quality = 99
+
+[params]
+  homeMetaContent = "my personal website"
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat = "Jan 2, 2006"
+  navTitleLink = "/"
+
+[outputFormats.Algolia]
+  baseName = "algolia"
+  isPlainText = true
+  mediaType = "application/json"
+  notAlternative = true
+
+[outputFormats.HumansTXT]
+  baseName = "humans"
+  isPlainText = true
+  mediaType = "text/plain"
+  notAlternative = true
+
+[params.algolia]
+  # vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+  vars = ["title", "summary", "date", "publishdate", "permalink"]
+  params = ["tags"]
+
+[outputs]
+  home = ["HTML", "RSS", "Algolia", "HumansTXT"]
+
+[menu]
+  [[menu.nav]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.nav]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.nav]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+  [[menu.nav]]
+    name = "Search"
+    url = "/search/"
+    weight = 5
+  [[menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 6

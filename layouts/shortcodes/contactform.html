@@ -1,0 +1,115 @@
+<style>
+form {
+  position: relative;
+  max-width: 80%;
+  padding: 1em;
+
+  [type="submit"] {
+    margin-top: 0.5em;
+  }
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0.75em 0.5em;
+  vertical-align: top;
+  overflow: visible;
+  background: #f2f2f2;
+  border: 1px solid #c2c2c2;
+  border-radius: 0.25em;
+  -webkit-appearance: none;
+}
+
+button {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0.75em 0.5em;
+  vertical-align: top;
+  overflow: visible;
+  font-size: ms(0);
+  background: #f2f2f2;
+  border: 1px solid #c2c2c2;
+  border-radius: 0.25em;
+  -webkit-appearance: none;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 -0.5em 1em;
+
+    > * {
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+    }
+
+    /* fix reCAPTCHA iframe overflow */
+    &.g-recaptcha > * {
+      margin-left: 0.5em;
+      padding: 0;
+    }
+  }
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="file"] {
+  width: 100%;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0;
+}
+</style>
+
+<form id="contact" name="contact" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="POST" data-netlify-recaptcha="true" data-netlify="true" netlify-honeypot="comment">
+  <div class="form__group">
+    <label id="lblName" for="name">Name
+      <input id="name" name="name" type="text" spellcheck="false" maxlength="255" required placeholder="Your name">
+    </label>
+  </div>
+  <div class="form__group">
+    <label id="lblEmail" for="email">Email <small>(does not get published)</small>
+      <input id="email" name="email" type="email" spellcheck="false" maxlength="255" required placeholder="email@example.com">
+    </label>
+  </div>
+  <div class="form__group">
+    <label id="lblHeardOf" for="heard-of">How did you get to my website?
+      <input id="heard-of" name="heard-of" type="text" spellcheck="true" maxlength="255" placeholder="e.g: Webforum, search (please add a name or url)">
+    </label>
+  </div>
+  <div class="form__group">
+    <label>Message: <textarea name="message" spellcheck="true" rows="10" cols="80%" required placeholder="Hi there, I ..."></textarea></label>
+  </div>
+  <div class="form__group">
+    <label id="lblFile" for="file">Files (Images, PDFs, code, etc.) <small>(if needed)</small>
+      <input id="file" name="file" type="file" accept="image/*,.pdf" multiple>
+    </label>
+  </div>
+  <div data-netlify-recaptcha="true" class="form__group"></div>
+  <div class="form__group">
+    <button id="submit" name="submit" type="submit" class="btn">Send form</button>
+  </div>
+  <div class="hidden">
+    <label id="lblComment" for="comment">Do not fill this out
+      <input name="comment">
+    </label>
+  </div>
+</form>

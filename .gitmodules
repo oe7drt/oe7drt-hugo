@@ -1,0 +1,3 @@
+[submodule "themes/papercss-hugo-theme"]
+	path = themes/papercss-hugo-theme
+	url = git@github.com:oe7drt/papercss-hugo-theme.git

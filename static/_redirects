@@ -1,0 +1,61 @@
+# Redirect default Netlify subdomain to primary domain
+https://oe7drt.netlify.com/*	https://oe7drt.com/:splat 					301!
+http://oe7drt.netlify.com/*		https://oe7drt.com/:splat 					301!
+
+# Redirect domain alias for hamradio
+https://oe7drt.at/*				https://oe7drt.com/							301!
+http://oe7drt.at/*				https://oe7drt.com/							301!
+
+# ----------------------------------------------------------------------
+# Main redirects
+# ----------------------------------------------------------------------
+
+/contact/                   	/about/#contact
+/mmdvm/                     	/blog/2020-04-12-my-mmdvm-hotspot/ 			301
+/hotspot/                   	/blog/2020-04-12-my-mmdvm-hotspot/ 			301
+/mmdvm-hotspot/             	/blog/2020-04-12-my-mmdvm-hotspot/ 			301
+/projects/mmdvm-hotspot/		/blog/2020-04-12-my-mmdvm-hotspot/			301
+
+/blog/my-way-to-ham-radio/		/blog/2020-01-02-my-way-to-amateur-radio/	301!
+/blog/my-way-to-amateur-radio/	/blog/2020-01-02-my-way-to-amateur-radio/	301!
+
+/blog/notes/					/tags/notes/								301
+/blog/amateur-radio/			/tags/ham-radio/							301
+/tag-til-zsh/					/tags/til-zsh/								301
+/tag-til-git/					/tags/til-git/								301
+/tag-nextion/					/tags/nextion/								301
+
+# ----------------------------------------------------------------------
+# Single post redirects
+# ----------------------------------------------------------------------
+
+/blog/amateur-radio/2020-01-02-how-to-get-an-amateur-radio-license-in-austria/	/blog/2020-01-02-my-way-to-amateur-radio/	301
+/blog/notes/2020-01-20-optimizing-png-images/	/blog/2020-01-20-optimizing-png-images/	301
+/blog/amateur-radio/2020-01-23-hs-dual-hat-with-pistar-v4/	http://192.168.178.100:1313/blog/2020-01-23-hs-dual-hat-with-pistar-v4/	301
+/blog/amateur-radio/2020-01-27-aprs-with-hytera-pd785g-v9/	/blog/2020-01-27-aprs-with-hytera-pd785g-v9-firmware/	301
+/blog/amateur-radio/2020-02-04-get-dmrids-on-the-command-line/	/blog/2020-02-04-get-dmrids-on-the-command-line/
+
+/blog/amateur-radio/*			/blog/:splat								301
+/blog/notes/*					/blog/:splat								301
+
+
+# ----------------------------------------------------------------------
+# Sitemap redirects
+# ----------------------------------------------------------------------
+
+/sitemap.xml.gz					/sitemap.xml								301!
+
+# ----------------------------------------------------------------------
+# Feed redirects
+# ----------------------------------------------------------------------
+
+/atom 							/index.xml									301!
+/rss 							/index.xml									301!
+/feed.xml						/index.xml									301!
+/til.xml						/index.xml									301!
+/feed.json						/index.json									301!
+
+/articles.xml     				/index.xml 									301!
+/recipes.xml      				/index.xml 									301!
+/photography.xml  				/index.xml 									301!
+/timelapse.xml    				/index.xml 									301!

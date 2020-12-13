@@ -1,0 +1,40 @@
+[build]
+	publish = "public"
+	command = "hugo --gc --minify"
+
+# this is currently Netlify Beta
+# https://github.com/netlify/build
+# https://www.netlify.com/build/plugins-beta/
+[build.lifecycle]
+  onSuccess = "npm run algolia"
+
+[context.production.environment]
+	HUGO_VERSION = "0.60.1"
+	HUGO_ENV = "production"
+
+[context.deploy-preview]
+	command = "hugo --gc --minify -DEF -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+	HUGO_VERSION = "0.60.1"
+
+[context.branch-deploy]
+  command = "hugo --gc --minify -DEF -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+  HUGO_VERSION = "0.60.1"
+
+[context.next.environment]
+  HUGO_ENABLEGITINFO = "true"
+
+# I've set up _headers for this
+# [[headers]]
+#   for = "/*"
+#   [headers.values]
+#     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+#     # use this to clear HSTS settings
+#     # Strict-Transport-Security = "max-age=0; includeSubDomains;"
+#     X-Frame-Options = "DENY"
+#     X-XSS-Protection = "1; mode=block"
+#     Referrer-Policy = "no-referrer"
+#     X-Content-Type-Options = "nosniff"

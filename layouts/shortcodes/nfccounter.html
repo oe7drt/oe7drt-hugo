@@ -1,0 +1,23 @@
+<script type="text/javascript">
+function getParam(name) {
+  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+}
+function printCounter() {
+  var $tmp = getParam('ctr');
+  if ($tmp == null || $tmp == 'undefined' || $tmp == 0) {
+    var $jsName  = document.querySelector('.jsK');
+    $jsName.innerHTML = "";
+  } else {
+    var $jsValue = document.querySelector('.jsC');
+    $jsValue.innerHTML = getParam('ctr').replace(/^0+/, '')
+  }
+}
+window.onload = printCounter;
+</script>
+
+<div class="jsK">
+  <p class="alert alert-primary">
+    This tag has been read <strong><span class="jsC">0</span> times</strong>
+    already.
+  </p>
+</div>

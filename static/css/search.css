@@ -1,0 +1,126 @@
+.empty {
+  padding: 0 15px 35px;
+}
+.searchbox-container {
+  margin-left: 15px;
+  margin-right: 15px;
+  /*max-width: 400px;*/
+}
+.searchbox-container .root {
+  max-width: inherit;
+}
+/*.searchbox-container .input {
+  padding-left: 14px;
+}*/
+.searchbox-container .form {
+  display: flex;
+  margin-top: 5px;
+}
+.searchbox-container .form .form-control {
+  border-radius: 0;
+  padding-bottom: 7px;
+}
+.searchbox-container .form .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.searchbox-container .form button {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #f8f8f8;
+  border-radius: 0;
+  margin-left: -1px;
+}
+
+#stats {
+  padding-right: 14px;
+  font-size: 0.8em;
+  line-height: 24px;
+}
+#hits {
+  padding: 0 15px;
+}
+#hits .list {
+  list-style: none;
+  padding: 0;
+}
+
+#pagination .root {
+  display: flex;
+  justify-content: center;
+}
+#pagination .disabledItem {
+  display: none;
+}
+#pagination .pagination a {
+  background: #f8f8f8;
+  padding: 3px 8px;
+  color: #333333;
+  margin-right: 4px;
+}
+#pagination .pagination a.selectedItem {
+  border-color: #b5b5b5;
+  background: #e8e8e8;
+}
+#pagination .pagination a:hover {
+  border-color: #cfcfcf;
+  background: #ebebeb;
+}
+
+.hit {
+  margin-bottom: 10px;
+  /*height: 130px;*/
+  border: 1px solid #f3f3f3;
+  padding: 5px 10px 0px;
+}
+.hit:hover {
+  background-color: #e2e2e2;
+  -webkit-transition: 250ms linear 0s;
+  -moz-transition: 250ms linear 0s;
+  -o-transition: 250ms linear 0s;
+  transition: 250ms linear 0s;
+}
+.hit mark {
+  font-style: normal;
+  background: #ffffd4;
+  text-decoration: underline;
+}
+.hit a, .hit a:hover, .hit a:focus {
+  text-decoration: none;
+  color: #333333;
+/*  text-shadow: none;
+  -webkit-transition: 250ms linear 0s;
+  -moz-transition: 250ms linear 0s;
+  -o-transition: 250ms linear 0s;
+  transition: 250ms linear 0s;
+  outline: 0 none;*/
+}
+/*.hit a:hover, .hit a:focus {
+  color: #6f6f6f;
+  background-color: #000;
+  text-shadow: -1px 1px 8px #6f6f6f, 1px -1px 8px #6f6f6f;
+}*/
+.hit .hit-summary {
+/*  height: 130px;
+  width: 130px;*/
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-size: 1em;
+}
+.hit .hit-heading {
+  color: #167ac6;
+  font-weight: normal;
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .hit .hit-summary {
+    font-size: 0.8em;
+  }
+  .hit .hit-heading {
+    font-size: 1em;
+  }
+}
