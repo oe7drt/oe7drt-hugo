@@ -26,6 +26,17 @@ search.addWidgets([
   instantsearch.widgets.stats({
     container: '#stats',
   }),
+
+  // instantsearch.widgets.hitsPerPage({
+  //   container: '#hits-per-page',
+  //   items: [
+  //     { label: '5 hits per page', value: 5, default: true },
+  //     { label: '10 hits per page', value: 10 },
+  //   ],
+  //   // Optional parameters
+  //   //cssClasses: object,
+  //   //transformItems: function,
+  // }),
 ]);
 
 var hitTemplate =
@@ -40,7 +51,7 @@ var noResultsTemplate =
 search.addWidgets([
   instantsearch.widgets.hits({
     container: '#hits',
-    hitsPerPage: 10,
+    hitsPerPage: 5,
     templates: {
       empty: noResultsTemplate,
       item: hitTemplate
@@ -50,16 +61,18 @@ search.addWidgets([
       list: 'list',
     },
   }),
-  instantsearch.widgets.pagination({
-    container: '#pagination',
-    scrollTo: '#hits',
-    cssClasses: {
-      root: 'root',
-      list: 'pagination',
-      disabledItem: 'disabledItem',
-      selectedItem: 'selectedItem',
-    },
-  }),
+  // instantsearch.widgets.pagination({
+  //   container: '#pagination',
+  //   hitsPerPage: 5,
+  //   // scrollTo: '#hits',
+  //   scrollTo: false,
+  //   cssClasses: {
+  //     root: 'root',
+  //     list: 'pagination',
+  //     disabledItem: 'disabledItem',
+  //     selectedItem: 'selectedItem',
+  //   },
+  // }),
 ]);
 
 search.start();

@@ -37,6 +37,8 @@
   font-size: 0.8em;
   line-height: 24px;
 }
+#hits-per-page {
+}
 #hits {
   padding: 0 15px;
 }
