@@ -363,7 +363,7 @@ PassAllPC1=2
 PassAllTG1=2
 Password="***"
 Debug=0
-Id=232718001
+Id="***""
 Name=BM_Germany_2622
 ```
 
@@ -386,7 +386,7 @@ PCRewrite1=2,9055,2,9055,6
 PCRewrite2=2,4000,2,4000,1001
 Password="PASSWORD"
 Debug=0
-Id=2327180
+Id="*******"
 Name=DMR+_IPSC2-OE-DMO
 Options="StartRef=4197;RelinkTime=15;UserLink=1;TS2_1=232;TS2_2=8189;"
 ```

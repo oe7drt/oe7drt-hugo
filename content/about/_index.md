@@ -13,14 +13,18 @@ I am a licensed ham radio operator since 2019 and my callsign is **OE7DRT**.
 My QTH is **Längenfeld** - the locator for that is
 [JN57lb](http://www.levinecentral.com/ham/grid_square.php?Grid=JN57lb).
 
-![eQSL certified authority](eqsl_auth_cert.png)
+<!-- ![eQSL certified authority](eqsl_auth_cert.png) -->
 
 ## Contact
 
 Please use the form below, make sure to use a valid email address if you want
 an answer back!
 
-{{< contactform >}}
+{{< alert "warning" >}}
+	So the contact form is currently not available...
+{{< /alert >}}
+
+<!-- {{< contactform >}} -->
 
 ## About this website
 

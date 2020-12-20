@@ -149,7 +149,7 @@ quick answer on the command line:
 
 ```
 for i in oe{1..9}drt; do call $i; done
-OE7DRT Dominic 2327180 2019-11-24
+OE7*** Dominic 2327*** 2019-11-24
 ```
 
 If you called your script `call` and if `call` is in your `$PATH`.
@@ -158,9 +158,9 @@ This works also if you missed one letter.
 
 ```
 for i in oe7{a..z}rt; do call $i; done
-OE7BRT Rainer 2327XXX 20XX-XX-XX
-OE7DRT Dominic 2327180 2019-11-24
-OE7JRT Josef 2327XXX 20XX-XX-XX
+OE7*** Rainer 2327XXX 20XX-XX-XX
+OE7*** Dominic 2327*** 2019-11-24
+OE7*** Josef 2327XXX 20XX-XX-XX
 ```
 
 This took ~10 seconds on my computer.
@@ -177,7 +177,7 @@ for i in oe7d{a..z}{a..z}; do call $i; done
 2327XXX OE7D?? Josef
 2327XXX OE7D?? Dragan
 2327XXX OE7D?? Peter
-2327180 OE7D?? Dominic
+2327*** OE7D?? Dominic
 2327XXX OE7D?? Wechselberger
 2327XXX OE7D?? Gernot
 ```
