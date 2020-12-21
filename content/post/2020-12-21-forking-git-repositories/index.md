@@ -3,6 +3,7 @@ title = 'Forking GIT-repositories'
 summary = '''So this is working for me now. Keeping up-to-date with my
 	upstream github repository'''
 date = 2020-12-21T12:13:30+01:00
+lastmod = 2020-12-21T21:00:02+01:00
 tags = ["til-git"]
 
 +++
@@ -17,6 +18,16 @@ I thought I could shrink my own commits down to a minimum and just summarize the
 into one single commit on the top of the commit history in my github repository.
 
 Time will tell, if this is a good approach...
+
+{{< alert "secondary" >}}
+<strong>I am no expert!</strong><br /><br />
+I am not an expert and this article helps me remembering this scenario with
+multiple repositories and their commit history. The logic behind this might
+not be correct, so if you have a better solution for this specific scenario,
+please let me know. I'm all up to learn this stuff the right way.
+{{< /alert >}}
+
+## If you have commits in your history
 
 Let's take my prezto repository and add the upstream repository to it.
 
@@ -157,6 +168,43 @@ Date:   Fri Dec 18 16:38:31 2020 +0100
 
     [...]
 ```
+
+## Approach #2: reset to upstream branch
+
+```bash
+❯ git checkout main
+Bereits auf 'main'
+Ihr Branch ist auf demselben Stand wie 'origin/main'.
+❯ git reset upstream/main
+Nicht zum Commit vorgemerkte Änderungen nach Zurücksetzung:
+M html/js/config.js
+M logtailer.ini
+❯ git diff > ../changes.patch
+❯ git reset --hard upstream/main
+HEAD ist jetzt bei ea48f75 Added Key Features in Readme.md
+❯ git push origin main --force
+Gesamt 0 (Delta 0), Wiederverwendet 0 (Delta 0)
+To github.com:oe7drt/MMDVMHost-Websocketboard.git
+ + b06f675...ea48f75 main -> main (forced update)
+❯ patch -p1 < ../changes.patch
+patching file html/js/config.js
+patching file logtailer.ini
+❯ git add .
+❯ git push
+Warning: Permanently added 'github.com,140.82.121.3' (RSA) to the list of known hosts.
+Objekte aufzählen: 11, Fertig.
+Zähle Objekte: 100% (11/11), Fertig.
+Delta-Kompression verwendet bis zu 4 Threads.
+Komprimiere Objekte: 100% (6/6), Fertig.
+Schreibe Objekte: 100% (6/6), 1.26 KiB | 646.00 KiB/s, Fertig.
+Gesamt 6 (Delta 3), Wiederverwendet 0 (Delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:oe7drt/MMDVMHost-Websocketboard.git
+   ea48f75..ba62875  main -> main
+```
+
+You now have the history of your upstream repository and only one commit on top
+of the history.
 
 PS: I've removed the full email addresses on `git log` outputs.
 
