@@ -26,3 +26,31 @@ git push origin master
 
 > This will rebase the upstream changes on your local forked version so the
 > master branch git history will look exactly the same at the end.
+
+## `git reset --hard`
+
+This solution has been taken from [stackoverflow.com][2].
+
+[2]: https://stackoverflow.com/a/42332860
+
+My setup is exactly like the one in the example, I usually use origin as my
+remote repo on github and upstream as the one that I forked off. It is a good
+idea to get rid of any changed or untracked files beforehand.
+
+```bash
+# ensures current branch is master
+git checkout master
+
+# pulls all new commits made to upstream/master
+git pull upstream master
+
+# this will delete all your local changes to master
+git reset --hard upstream/master
+
+# take care, this will delete all your changes on your forked master
+git push origin master --force
+```
+
+My workflow for this is explained over here: [Forking GIT-repositories][3]
+
+[3]: {{< relref "post/2020-12-21-forking-git-repositories" >}}
