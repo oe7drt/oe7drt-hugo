@@ -1,6 +1,8 @@
 +++
-title = "My Nextion 2.4\" DMR Last Heard Dashboard"
-summary = "I created a simple last-heard-dashboard for my small Nextion screen. It currently shows the used slot, its origin (like Network or RF) , the callsign and the used talkgroup."
+title = 'My Nextion 2.4" DMR Last Heard Dashboard'
+summary = '''I created a simple last-heard-dashboard for my small Nextion
+	screen. It currently shows the used slot, its origin (like Network or RF),
+	the callsign and the used talkgroup.'''
 date = 2020-02-16T12:43:34+01:00
 tags = ["ham radio","nextion","dmr"]
 

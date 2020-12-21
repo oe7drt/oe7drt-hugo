@@ -1,11 +1,17 @@
 +++
-title = "Create your own DMR-ID database file"
-summary = "Sometimes you just need to create your own files..."
+title = 'Create your own DMR-ID database file'
+summary = 'Sometimes you just need to create your own files...'
 date = 2020-11-16T23:23:51+01:00
 lastmod = 2020-12-13T02:49:29+01:00
 tags = ["dmr","script"]
 
 +++
+
+{{< alert "danger" >}}
+`radioid.net` and `ham-digital.org` are now managed only by `radioid.net` and
+this is still not in my code below. I'm going to changes this here the upcoming
+week or so. This shuold still work though...
+{{< /alert >}}
 
 Let's start with the website [ham-digital.org](https://ham-digital.org/). It
 contains the user database of registered DMR-IDs worldwide.

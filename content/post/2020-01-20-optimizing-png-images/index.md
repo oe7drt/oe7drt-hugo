@@ -1,6 +1,8 @@
 +++
-title = "Optimizing PNG Images"
-summary = "A quick notice about three very handy tools to optimize PNG images on the command line. They work on linux and macOS. Use jpegtran for JPG images."
+title = 'Optimizing PNG Images'
+summary = '''A quick notice about three very handy tools to optimize PNG
+	images on the command line. They work on linux and macOS. Use jpegtran
+	for JPG images.'''
 date = 2020-01-20T20:34:20+01:00
 lastmod = 2020-01-23T14:39:06+01:00
 tags = ["notes"]

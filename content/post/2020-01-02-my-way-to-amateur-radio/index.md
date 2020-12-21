@@ -1,6 +1,12 @@
 +++
-title = "How To Get An Amateur Radio License In Austria"
-summary = "I'm not the casual ham radio operator that always wanted to operate his own ham radio station. I tried CB once but had to travel quite a bit to reach other stations (trucks on the highway for example). I've played with SDR before and tried a few things with GNUradio and gqrx but I never got deeper into this kind of things." 
+title = 'How To Get An Amateur Radio License In Austria'
+summary = '''I'm not the casual ham radio operator that always wanted to operate
+	his own ham radio station.  
+
+I tried CB once but had to travel quite a bit to
+	reach other stations (trucks on the highway for example). I've played with
+	SDR before and tried a few things with GNUradio and gqrx but I never got
+	deeper into this kind of things.'''
 date = 2020-01-02T17:01:26+01:00
 tags = ["life","ham radio"]
 

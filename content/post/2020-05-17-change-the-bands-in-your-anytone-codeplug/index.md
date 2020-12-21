@@ -1,6 +1,7 @@
 +++
-title = "Change The Bands In Your Anytone Codeplug"
-summary = "If you can't change the band edges on your Anytone radio change the band setting in the codeplug so it matches."
+title = 'Change The Bands In Your Anytone Codeplug'
+summary = '''If you can't change the band edges on your Anytone radio change
+	the band setting in the codeplug so it matches.'''
 date = 2020-05-17T11:38:31+02:00
 tags = ["ham radio","macos","anytone","dmr"]
 

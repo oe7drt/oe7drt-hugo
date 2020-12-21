@@ -1,6 +1,6 @@
 +++
-title = "Keep up-to-date on forked repositories"
-summary = "One of the most useful reminder for me at the moment :p"
+title = 'Keep up-to-date on forked repositories'
+summary = 'One of the most useful reminder for me at the moment :p'
 date = 2020-11-14T23:20:16+01:00
 tags = ["til-git"]
 
@@ -10,6 +10,8 @@ I usually fetch the upstream repository and merge it into my local repository,
 then upload all the merges into the github repository. That works sometimes,
 but it also fails sometimes with me having an extra commit with merges leaving
 the git history different from the upstream...
+
+## `git pull --rebase`
 
 This snippet has been taken from [github.community][1].
 

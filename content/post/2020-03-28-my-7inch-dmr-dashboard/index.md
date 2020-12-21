@@ -1,6 +1,13 @@
 +++
-title = "My 7-Inch DMR Dashboard"
-summary = "I did not like the small screen and the small housing of my last Hotspot so I decided to make a bigger housing where I needed a bigger screen. Look what I got myself up and running, with some major options to control the hotspot just right off the screen itself. Make sure to install the NextionDrivers when you use this layout - it offers way more possibilities."
+title = 'My 7-Inch DMR Dashboard'
+summary = '''I did not like the small screen and the small housing of my last
+	Hotspot so I decided to make a bigger housing where I needed a bigger
+	screen.
+
+Look what I got myself up and running, with some major options to control the
+	hotspot just right off the screen itself. Make sure to install the
+	**NextionDrivers** when you use this layout - it offers way more
+	possibilities.'''
 date = 2020-03-28T12:42:44+01:00
 lastmod = 2020-06-07T11:10:12+02:00
 tags = ["ham radio","nextion","dmr"]

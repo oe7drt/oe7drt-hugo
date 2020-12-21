@@ -1,6 +1,7 @@
 +++
-title = "My virtual windows machine from VirtualBox on Big Sur will not start"
-summary = "A quick fix if your virtual machine will not start. As long, as you got the same configuration as me"
+title = 'My virtual windows machine from VirtualBox on Big Sur will not start'
+summary = '''A quick fix if your virtual machine will not start. As long, as
+	you got the same configuration as me.'''
 date = 2020-11-22T18:02:45+01:00
 tags = ["macos","big sur","virtualbox"]
 

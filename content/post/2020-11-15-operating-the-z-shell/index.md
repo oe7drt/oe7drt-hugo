@@ -1,6 +1,6 @@
 +++
-title = "Operating the Z-Shell"
-summary = "The Z-Shell. I love it in combination with Prezto."
+title = 'Operating the Z-Shell'
+summary = 'The Z-Shell. I love it in combination with Prezto.'
 date = 2020-11-15T00:35:22+01:00
 tags = ["til-zsh"]
 

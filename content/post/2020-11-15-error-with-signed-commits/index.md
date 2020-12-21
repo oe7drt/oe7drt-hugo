@@ -1,6 +1,6 @@
 +++
-title = "Error with signed commits"
-summary = "This basically enabled signed commits for me again."
+title = 'Error with signed commits'
+summary = 'This basically enabled signed commits for me again.'
 date = 2020-11-14T23:22:42+01:00
 tags = ["til-git"]
 

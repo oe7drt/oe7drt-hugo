@@ -1,6 +1,10 @@
 +++
-title = "Get DMRIDs Via Command Line"
-summary = "This is a quick workaround to retrieve a DMRID on console or terminal. This comes in handy when you don't have a browser window open or not even a graphical setup running. The script uses w3m to retrieve website content from ham-digital.org. It's also usable when piping its output to a file."
+title = 'Get DMRIDs Via Command Line'
+summary = '''This is a quick workaround to retrieve a DMRID on console or
+  terminal. This comes in handy when you don't have a browser window open or
+  not even a graphical setup running. The script uses w3m to retrieve website
+  content from ham-digital.org. It's also usable when piping its output to a
+  file.'''
 date = 2020-02-04T13:05:25+01:00
 lastmod=2020-03-28T16:36:28+01:00
 tags = ["dmr","ham radio","pi-star","script"]

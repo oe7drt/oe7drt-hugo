@@ -1,6 +1,7 @@
 +++
-title = "APRS With The Hytera Pd785g And It's New Firmware v9"
-summary = "The short way of how I did this setup because it is a bit different than the ones that I've seen for the older firmware version V8."
+title = '''APRS With The Hytera Pd785g And It's New Firmware v9'''
+summary = '''The short way of how I did this setup because it is a bit
+	different than the ones that I've seen for the older firmware version V8.'''
 date = 2020-01-27T17:34:01+01:00
 tags = ["dmr","ham radio","aprs","hytera"]
 

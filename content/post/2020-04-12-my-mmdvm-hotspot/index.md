@@ -1,6 +1,6 @@
 +++
-title = "My MMDVM Hotspot"
-summary = "This is the setup that I use at my stationary hotspot at home."
+title = 'My MMDVM Hotspot'
+summary = 'This is the setup that I use at my stationary hotspot at home.'
 date = 2020-04-12T15:14:17+02:00
 tags = ["ham radio","mmdvm","hotspot","nextion","dmr","c4fm","equipment"]
 lastmod = 2020-06-07T11:10:43+02:00
@@ -14,6 +14,11 @@ to the post section on April 12 2020 to keep a compact menu line on the top.
 The content of this article may change continuously. This website does not
 reflect an up-to-date state of my hotspot but it gives an idea of my current
 setup.
+{{< /alert >}}
+
+{{< alert "danger" >}}
+This page is totally outdated. Development is quick, the reflections to this
+website are not. Sorry for now, but I'll keep track of this in the upcoming week...
 {{< /alert >}}
 
 ## Changelog
