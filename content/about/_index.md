@@ -42,8 +42,8 @@ an answer back!
 My website is a personal storage of a set of information about many different
 things --- mostly about ham radio and other tech stuff. The main goal of my blog
 is for my personal usage. That is because some articles may not explain
-everything --- I hope I can reproduce a working setup with all the steps in
-these articles.
+everything --- I hope I can reproduce a working setup (for me) with all the
+steps in these articles.
 
 *I could have saved some links in my bookmarks, right?* Well, I have. But I do that
 now for a long time and it sometimes happens, that one or another link becomes

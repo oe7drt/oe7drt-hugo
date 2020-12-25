@@ -22,7 +22,7 @@ enableRobotsTXT = true
   quality = 99
 
 [params]
-  homeMetaContent = "my personal website"
+  homeMetaContent = "personal website of Dominic Reich \"OE7DRT\" - an austrian radio amateur station"
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat = "Jan 2, 2006"
   navTitleLink = "/"
