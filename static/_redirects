@@ -34,6 +34,13 @@ http://oe7drt.at/*				https://oe7drt.com/							301!
 /blog/amateur-radio/2020-01-23-hs-dual-hat-with-pistar-v4/	http://192.168.178.100:1313/blog/2020-01-23-hs-dual-hat-with-pistar-v4/	301
 /blog/amateur-radio/2020-01-27-aprs-with-hytera-pd785g-v9/	/blog/2020-01-27-aprs-with-hytera-pd785g-v9-firmware/	301
 /blog/amateur-radio/2020-02-04-get-dmrids-on-the-command-line/	/blog/2020-02-04-get-dmrids-on-the-command-line/
+/blog/aprs-with-hytera-pd785g-v9/	/blog/2020-01-27-aprs-with-hytera-pd785g-v9-firmware/	301
+/blog/2020-11-14-keep-up-to-date-on-forked-repositories/	/blog/2020-11-15-keep-up-to-date-on-forked-repositories/	301
+/blog/2020-11-14-error-with-signed-commits/	/blog/2020-11-15-error-with-signed-commits/	301
+/blog/2020-11-14-operating-the-z-shell/	/blog/2020-11-15-operating-the-z-shell/	301
+/blog/my-7inch-dmr-dashboard/	/blog/2020-03-28-my-7inch-dmr-dashboard/	301
+/blog/nextion-dmr-last-heard-dashboard/	/blog/2020-02-16-nextion-dmr-last-heard-dashboard/	301
+/projects/mmdvm-hotspots/	/blog/2020-04-12-my-mmdvm-hotspot/	301
 
 /blog/amateur-radio/*			/blog/:splat								301
 /blog/notes/*					/blog/:splat								301
