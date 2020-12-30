@@ -48,11 +48,13 @@ steps in these articles.
 *I could have saved some links in my bookmarks, right?* Well, I have. But I do that
 now for a long time and it sometimes happens, that one or another link becomes
 unavailable and hosting my own set of information does not result in these
-situations in any way.
+situations in any way. As long as I need them.
 
 You can use the information on these pages for yourself. Just keep in mind, that
 some of them may not be very objective or even accurate. The reverse is true. I
 fill them with my opinions and experiences; some with solutions --- some not.
+
+Also, keep in mind that the information on my websites could go offline anytime.
 
 ### Licenses
 
@@ -66,23 +68,49 @@ limited to them.
 Code on my website is **usually** licensed under the [MIT license][5]. This
 license also applies to the [codebase of my website][6].
 
-For attribution a link back to my website (`OE7DRT.com`) should be enough.
+For attribution a link back to my website (`oe7drt.com`) should be enough.
 
 ## Other resources
 
 I used to maintain a broader range of topics on my other website
-`dominicreich.com` - but keeping track of all the changes in the more complex
-hugo theme made me decide to implement most articles in this smaller one.
+`dominicreich.com`. I changed the backend software and themes here and there,
+mostly trying to find a better solution as the one I currently have ;-)
 
 For reference, my older website are still accessible on the following URLs:
 
-- [oe7drt.com hugo version][7]  
-  this is the website, that you are looking at the moment
-- [dominicreich.com jekyll version][8]  
-  you can search this website with algolia search
-- [dominicreich.com hugo version][9]  
-  next version of the older jekyll version but still a few style things won't
-  work correctly
+- [dominicreich.com jekyll version][7]
+
+> That is the first site that was published with a static site generator. I used
+> [Jekyll][8] at that time. Thanks to [Michael Rose][9] and his efforts on his
+> own website I was able to publish a changed version as my own website.
+
+- [dominicreich.com hugo version][10]
+
+> After some time I wanted something slim and less complex to maintain so I gave
+> [Hugo][11] a try. The used theme made me switch back to Jekyll again (some
+> styling problems that I weren't able to fix quickly enough made me actually
+> give Jekyll another try). Besides that I got my radio amateur license at that
+> time that also made me buy a new domain --- `oe7drt.com` was online.
+
+- [oe7drt.com hugo version #1][12]
+
+> I was using the slim theme [PaperCSS][13]. I wasn't using this long because
+> I was not able to fix the styling on the search page to not disrupt the page
+> on mobile devices.
+
+- [oe7drt.com jekyll version with hidejack-theme][14]
+
+> With the search page problems mentioned above I gave [Hydejack][15] a try. I
+> tried this already some time [before][16] and bought the Pro version to use with
+> [Netlify][17] as a private repository hosted on [Github][18]. I missed the
+> slim design of the hugo website and could not resist to give that search
+> another try...
+
+- [oe7drt.com hugo version #2][19]
+
+> And here we are. I finally got the search bar styling fixed and it does no
+> longer break the layout on smaller screens. I was also able to remove the
+> html-tags within the description so the found entries do look a lot better now.
 
 [1]: http://www.levinecentral.com/ham/grid_square.php?Grid=JN57lb
 [2]: https://keys.openpgp.org/search?q=D49A+3CE2+CCF7+2668+4D98+9A31+BC9D+6AE1+A3BE+169A
@@ -90,6 +118,16 @@ For reference, my older website are still accessible on the following URLs:
 [4]: https://creativecommons.org/licenses/by-nc-nd/4.0/
 [5]: https://github.com/oe7drt/oe7drt-hugo/blob/master/LICENSE
 [6]: https://github.com/oe7drt/oe7drt-hugo
-[7]: https://oe7drt-hugo-old.netlify.app
-[8]: https://dominicreich-old.netlify.com
-[9]: https://dominicreich.com
+[7]: https://dominicreich-old.netlify.com
+[8]: https://jekyllrb.com/
+[9]: https://mademistakes.com/
+[10]: https://dominicreich.netlify.app/
+[11]: https://gohugo.io/
+[12]: https://oe7drt-hugo-old.netlify.app
+[13]: https://themes.gohugo.io/papercss-hugo-theme/
+[14]: https://oe7drt-hidejack.netlify.app
+[15]: https://hydejack.com/
+[16]: https://dominicreich-hydejack.netlify.app/
+[17]: https://www.netlify.com/
+[18]: https://github.com/
+[19]: /
