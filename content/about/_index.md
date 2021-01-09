@@ -1,6 +1,7 @@
 +++
-title = "About"
-date = "2020-01-02"
+title = 'About'
+date = 2020-01-02
+lastmod = 2021-01-09T09:36:35+01:00
 aliases = ["about-us","oe7drt"]
 #author = "Hugo Authors"
 #robotsdisallow = true
