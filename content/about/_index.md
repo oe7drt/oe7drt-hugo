@@ -14,6 +14,35 @@ My QTH is **Längenfeld** - the locator for that is [JN57lb][1].
 
 <!-- ![eQSL certified authority](eqsl_auth_cert.png) -->
 
+## Useful links on my website
+
+- [Blog posts on my equipment that I use](/tags/equipment/) -- also [have a look at the projects page]({{< relref "projects" >}}), as I tend to collect the main information
+  on my equipment over there
+- [Some common "life update" postings](/tags/life/)
+- more to come...
+
+## Repeaters around
+
+Those are the repeaters around my home (and my second home). My QTH is around
+1180m above sea level (my second home is nearly the same).
+
+| Repeater              | Home QTH, Längenfeld       | Second QTH, Ötz            |
+| :-------------------- | :------------------------- | :------------------------- |
+| OE7XGI Ötztal         | ![oe7xgi](oe7xgi_home.png) | ![oe7xgi](oe7xgi_oetz.png) |
+| OE7XWH Grünberg       | ![oe7xwh](oe7xwh_home.png) | ![oe7xwh](oe7xwh_oetz.png) |
+| OE7XMR Kaunerberg     | ![oe7xmr](oe7xmr_home.png) | ![oe7xmr](oe7xmr_oetz.png) |
+| OE7XOI Fiss           | ![oe7xoi](oe7xoi_home.png) | ![oe7xoi](oe7xoi_oetz.png) |
+| OE7XTR Krahberg       | ![oe7xtr](oe7xtr_home.png) | ![oe7xtr](oe7xtr_oetz.png) |
+| OE7XBI Rangger Köpfl  | ![oe7xbi](oe7xbi_home.png) | ![oe7xbi](oe7xbi_oetz.png) |
+| OE7XVR Valluga        | ![oe7xvr](oe7xvr_home.png) | ![oe7xvr](oe7xvr_oetz.png) |
+| OE7XRT Reutte         | ![oe7xrt](oe7xrt_home.png) | ![oe7xrt](oe7xrt_oetz.png) |
+| OE7XZR Zugspitze      | ![oe7xzr](oe7xzr_home.png) | ![oe7xzr](oe7xzr_oetz.png) |
+| OE7XGR Gefrorene Wand | ![oe7xgr](oe7xgr_home.png) | ![oe7xgr](oe7xgr_oetz.png) |
+| OE7XOT Obtarrenz      | ![oe7xot](oe7xot_home.png) | ![oe7xot](oe7xot_oetz.png) |
+
+For now, I only own some handheld radios so I do not reach those repeaters from
+my terrace. I can sometimes open the first two repeater
+
 ## Contact
 
 You can contact me via email, the address is `dominic@` -- append the
