@@ -2,7 +2,7 @@
 title = 'Create your own DMR-ID database file'
 summary = 'Sometimes you just need to create your own files...'
 date = 2020-11-16T23:23:51+01:00
-lastmod = 2020-12-13T02:49:29+01:00
+lastmod = 2021-01-14T22:35:17+01:00
 tags = ["dmr","script"]
 
 +++
@@ -25,7 +25,7 @@ registrations or the list of local administrators.
 Okay, I try to keep this simple. These scripts are made to download an actual
 snapshot of the DMR-ID database from *ham-digital.org*. They create a comma-separated
 list of DMR-IDs and callsigns to import into an amateur radio device. Actually
-I use them only on my [Radioddity GD-77]({% link _projects/radioddity-gd77.md %}).
+I use them only on my [Radioddity GD-77]({{< relref "projects/radioddity-gd77" >}}).
 
 ## Download the full database
 
