@@ -18,7 +18,7 @@ setup.
 
 {{< alert "danger" >}}
 This page is totally outdated. Development is quick, the reflections to this
-website are not. Sorry for now, but I'll keep track of this in the upcoming week...
+website are not. Sorry for now, but I'll keep track of this in the upcoming year...
 {{< /alert >}}
 
 ## Changelog
