@@ -40,6 +40,8 @@ http://oe7drt.at/*				https://oe7drt.com/							301!
 /blog/2020-11-14-operating-the-z-shell/	/blog/2020-11-15-operating-the-z-shell/	301
 /blog/my-7inch-dmr-dashboard/	/blog/2020-03-28-my-7inch-dmr-dashboard/	301
 /blog/nextion-dmr-last-heard-dashboard/	/blog/2020-02-16-nextion-dmr-last-heard-dashboard/	301
+/blog/change-the-bands-in-your-anytone-codeplug/  /blog/2020-05-17-change-the-bands-in-your-anytone-codeplug/ 301
+
 /projects/mmdvm-hotspots/	/blog/2020-04-12-my-mmdvm-hotspot/	301
 
 /blog/amateur-radio/*			/blog/:splat								301
