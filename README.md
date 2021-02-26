@@ -17,6 +17,14 @@ static site generator I use on my websites nowadays.
 - [x] [PaperCSS-Theme for Hugo](https://github.com/zwbetz-gh/papercss-hugo-theme)
 - [x] [hugo-easy-gallery](https://github.com/liwenyip/hugo-easy-gallery)
 
+## What tools do I use
+
+- [ ] Sublime Text 3
+- [ ] Sublime Merge
+- [x] Visual Studio Code
+- [x] Gimp
+- [x] vim
+
 ## Licenses
 
 The theme that I use is called PaperCSS and is maintained by
