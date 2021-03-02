@@ -48,31 +48,35 @@ enableRobotsTXT = true
   home = ["HTML", "RSS", "Algolia", "HumansTXT"]
 
 [menu]
-  [[menu.nav]]
-    name = "Blog"
-    url = "/"
-    weight = 1
+  # [[menu.nav]]
+  #   name = "Blog"
+  #   url = "/"
+  #   weight = 1
   [[menu.nav]]
     name = "Tags"
     url = "/tags/"
     weight = 2
   [[menu.nav]]
+    name = "Equipment"
+    url = "/equipment/"
+    weight = 3
+  [[menu.nav]]
     name = "Projects"
     url = "/projects/"
-    weight = 3
+    weight = 4
   [[menu.nav]]
     name = "Events"
     url = "/events/"
-    weight = 4
+    weight = 5
   [[menu.nav]]
     name = "About"
     url = "/about/"
-    weight = 5
+    weight = 6
   [[menu.nav]]
     name = "Search"
     url = "/search/"
-    weight = 6
+    weight = 7
   [[menu.nav]]
     name = "RSS"
     url = "/index.xml"
-    weight = 7
+    weight = 8

@@ -25,7 +25,7 @@ registrations or the list of local administrators.
 Okay, I try to keep this simple. These scripts are made to download an actual
 snapshot of the DMR-ID database from *ham-digital.org*. They create a comma-separated
 list of DMR-IDs and callsigns to import into an amateur radio device. Actually
-I use them only on my [Radioddity GD-77]({{< relref "projects/radioddity-gd77" >}}).
+I use them only on my [Radioddity GD-77]({{< relref "equipment/radioddity-gd77" >}}).
 
 ## Download the full database
 
