@@ -25,7 +25,7 @@ My QTH is **Längenfeld** - the locator for that is [JN57lb][1].
 ## Repeaters around
 
 Those are the repeaters around my home (and my second home). My QTH is around
-1180m above sea level (my second home is nearly the same).
+1180m above sea level (my second home is nearly the same; but 16km to the north).
 
 | Repeater              | Home QTH, Längenfeld       | Second QTH, Ötz            |
 | :-------------------- | :------------------------- | :------------------------- |
