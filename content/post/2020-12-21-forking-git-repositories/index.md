@@ -3,7 +3,7 @@ title = 'Forking GIT-repositories'
 summary = '''So this is working for me now. Keeping up-to-date with my
 	upstream github repository'''
 date = 2020-12-21T12:13:30+01:00
-lastmod = 2020-12-21T21:00:02+01:00
+lastmod = 2021-03-03T21:40:36+01:00
 tags = ["til-git"]
 
 +++
@@ -190,6 +190,9 @@ To github.com:oe7drt/MMDVMHost-Websocketboard.git
 patching file html/js/config.js
 patching file logtailer.ini
 ❯ git add .
+❯ git commit -m 'personalize'
+[main 4789400] personalize
+ 2 files changed, 7 insertions(+), 6 deletions(-)
 ❯ git push
 Warning: Permanently added 'github.com,140.82.121.3' (RSA) to the list of known hosts.
 Objekte aufzählen: 11, Fertig.
