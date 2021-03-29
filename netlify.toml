@@ -9,20 +9,20 @@
 #   onSuccess = "npm run algolia"
 
 [context.production.environment]
-	HUGO_VERSION = "0.80.0"
+	HUGO_VERSION = "0.82.0"
 	HUGO_ENV = "production"
 
 [context.deploy-preview]
 	command = "hugo --gc --minify -DEF -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-	HUGO_VERSION = "0.80.0"
+	HUGO_VERSION = "0.82.0"
 
 [context.branch-deploy]
   command = "hugo version && hugo --gc --minify -DEF --ignoreCache --debug -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-  HUGO_VERSION = "0.60.1"
+  HUGO_VERSION = "0.82.0"
 
 [context.next.environment]
   HUGO_ENABLEGITINFO = "true"
