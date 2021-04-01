@@ -9,6 +9,12 @@ date = 2020-10-22T23:19:14+02:00
 
 +++
 
+![The radio](radio.jpg)
+
+## Specifications
+
+## My two cents
+
 {{< background "warning" >}}
 This page is a work in progress and I will fill this up soon.
 {{< /background >}}

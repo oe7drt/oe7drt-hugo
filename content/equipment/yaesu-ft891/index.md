@@ -1,8 +1,12 @@
 +++
 title = "Yaesu FT-891"
 #summary = "test"
-date = 2021-03-30T06:07:26+02:00
+date = 2020-06-08
 
 +++
 
-This is a placeholder page. Content is coming soon!
+![The radio](radio.jpg)
+
+## Specifications
+
+## My two cents

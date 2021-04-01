@@ -1,8 +1,12 @@
 +++
 title = "Yaesu FT-4X"
 #summary = "test"
-date = 2021-03-30T06:07:26+02:00
+date = 2019-11-25
 
 +++
 
-This is a placeholder page. Content is coming soon!
+![The radio](radio.jpg)
+
+## Specifications
+
+## My two cents

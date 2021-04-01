@@ -1,7 +1,7 @@
 +++
-title = "Radioddity GA-510"
+title = "LDG Z-100plus"
 #summary = "test"
-date = 2021-03-30T06:07:26+02:00
+date = 2020-06-08
 
 +++
 
