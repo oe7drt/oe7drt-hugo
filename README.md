@@ -10,20 +10,18 @@ static site generator I use on my websites nowadays.
 
 ## What I use on my website
 
-- [x] [Hugo](https://gohugo.io/)
-- [x] [Github](https://github.com/)
-- [x] [Netlify](https://www.netlify.com/)
-- [x] [Google-Analytics](https://analytics.google.com/analytics/web/)
-- [x] [PaperCSS-Theme for Hugo](https://github.com/zwbetz-gh/papercss-hugo-theme)
-- [x] [hugo-easy-gallery](https://github.com/liwenyip/hugo-easy-gallery)
+- [Hugo](https://gohugo.io/)
+- [Github](https://github.com/)
+- [Netlify](https://www.netlify.com/)
+- [Google-Analytics](https://analytics.google.com/analytics/web/)
+- [PaperCSS-Theme for Hugo](https://github.com/zwbetz-gh/papercss-hugo-theme)
+- [hugo-easy-gallery](https://github.com/liwenyip/hugo-easy-gallery)
 
 ## What tools do I use
 
-- [ ] Sublime Text 3
-- [ ] Sublime Merge
-- [x] Visual Studio Code
-- [x] Gimp
-- [x] vim
+- Sublime Text 3
+- vim
+- Gimp, optipng, advpng, pngcrush, jpegtran
 
 ## Licenses
 
