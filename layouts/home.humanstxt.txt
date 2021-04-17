@@ -9,9 +9,9 @@
   Last updated: {{ site.LastChange }}
   Language:     English
   Built with:   Hugo {{ hugo.Version }} <https://gohugo.io>
-                Visual Studio Code <https://code.visualstudio.com>
+                Sublime Text 3 <https://www.sublimetext.com>
                 Netlify CI <https://www.netlify.com>
                 Github <https://github.com>
                 Gimp <https://www.gimp.org>
-  older tools:  Sublime Text 3 <https://www.sublimetext.com>
+  older tools:  Visual Studio Code <https://code.visualstudio.com>
                 Sublime Merge <https://www.sublimemerge.com>
