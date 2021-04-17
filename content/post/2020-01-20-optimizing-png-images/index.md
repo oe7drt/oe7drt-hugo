@@ -4,7 +4,7 @@ summary = '''A quick notice about three very handy tools to optimize PNG
 	images on the command line. They work on linux and macOS. Use jpegtran
 	for JPG images.'''
 date = 2020-01-20T20:34:20+01:00
-lastmod = 2020-01-23T14:39:06+01:00
+lastmod = 2021-04-17T14:18:49+02:00
 tags = ["notes"]
 
 +++
@@ -34,6 +34,51 @@ function opti() {
 }
 ```
 
+{{< alert "danger" >}}
+**Update on April 17 2021:**
+
+Okay that worked with ZSH (and prezto), and this one will work on fish:
+
+``` fish
+function opti --description "Optimizes .png files"
+  # Author: Dominic, OE7DRT <dominic@oe7drt.com>
+  # 2021-04-17
+  set -e missing
+
+  for program in optipng advpng pngcrush
+    if \! command -v $program > /dev/null
+      set -a missing $program
+      continue
+    end
+  end
+
+  if test -n "$missing"
+    echo "Could not find executables: $missing"
+    return 1
+  end
+
+  if test -z $argv[1]
+    echo "usage: opti <files...>"
+    return 1
+  end
+
+  set count (count $argv)
+
+  for i in (seq 1 $count)
+    if test ! -f $argv[$i]
+      echo "Could not read file $argv[$i]..."
+      continue
+    end
+
+    optipng -nb -nc "$argv[$i]";
+    advpng -z4 "$argv[$i]";
+    pngcrush -rem gAMA -rem alla -rem cHRM -rem iCCP -rem sRGB -rem time -ow "$argv[$i]";
+  end
+end
+```
+
+{{< /alert >}}
+
 To run all three commands on a single image I just call it like that:
 
 ```
@@ -54,6 +99,12 @@ On debian or ubuntu
 
 ```
 sudo apt-get install optipng pngcrush advancecomp
+```
+
+On Arch based distros using pacman
+
+```
+sudo pacman -S optipng pngcrush advancecomp
 ```
 
 On macOS
