@@ -8,6 +8,8 @@ aliases = ["about-us","oe7drt"]
 
 +++
 
+{{< load-photoswipe >}}
+
 Hello, my name is **Dominic** and I maintain this website.  
 I am a licensed ham radio operator since 2019 and my callsign is **OE7DRT**.
 
@@ -27,19 +29,19 @@ My QTH is **Längenfeld** - the locator for that is [JN57lb][1].
 Those are the repeaters around my home (and my second home). My QTH is around
 1180m above sea level (my second home is nearly the same; but 16km to the north).
 
-| Repeater              | Home QTH, Längenfeld       | Second QTH, Ötz            |
-| :-------------------- | :------------------------- | :------------------------- |
-| OE7XGI Ötztal         | ![oe7xgi](oe7xgi_home.png) | ![oe7xgi](oe7xgi_oetz.png) |
-| OE7XWH Grünberg       | ![oe7xwh](oe7xwh_home.png) | ![oe7xwh](oe7xwh_oetz.png) |
-| OE7XMR Kaunerberg     | ![oe7xmr](oe7xmr_home.png) | ![oe7xmr](oe7xmr_oetz.png) |
-| OE7XOI Fiss           | ![oe7xoi](oe7xoi_home.png) | ![oe7xoi](oe7xoi_oetz.png) |
-| OE7XTR Krahberg       | ![oe7xtr](oe7xtr_home.png) | ![oe7xtr](oe7xtr_oetz.png) |
-| OE7XBI Rangger Köpfl  | ![oe7xbi](oe7xbi_home.png) | ![oe7xbi](oe7xbi_oetz.png) |
-| OE7XVR Valluga        | ![oe7xvr](oe7xvr_home.png) | ![oe7xvr](oe7xvr_oetz.png) |
-| OE7XRT Reutte         | ![oe7xrt](oe7xrt_home.png) | ![oe7xrt](oe7xrt_oetz.png) |
-| OE7XZR Zugspitze      | ![oe7xzr](oe7xzr_home.png) | ![oe7xzr](oe7xzr_oetz.png) |
-| OE7XGR Gefrorene Wand | ![oe7xgr](oe7xgr_home.png) | ![oe7xgr](oe7xgr_oetz.png) |
-| OE7XOT Obtarrenz      | ![oe7xot](oe7xot_home.png) | ![oe7xot](oe7xot_oetz.png) |
+| Home QTH, Längenfeld                                                         | Second QTH, Ötz                                                               |
+| :--------------------------------------------------------------------------- | :---------------------------------------------------------------------------- |
+| {{< figure link="/about/oe7xgi_home.png" caption="OE7XGI Ötztal" >}}         | {{< figure link="/about/oe7xgi_oetz.png" caption="OE7XGI Ötztal" >}}          |
+| {{< figure link="/about/oe7xwh_home.png" caption="OE7XWH Grünberg" >}}       | {{< figure link="/about/oe7xwh_oetz.png" caption="OE7XWH Grünberg" >}}        |
+| {{< figure link="/about/oe7xmr_home.png" caption="OE7XMR Kaunerberg" >}}     | {{< figure link="/about/oe7xmr_oetz.png" caption="OE7XMR Kaunerberg" >}}      |
+| {{< figure link="/about/oe7xoi_home.png" caption="OE7XOI Fiss" >}}           | {{< figure link="/about/oe7xoi_oetz.png" caption="OE7XOI Fiss" >}}            |
+| {{< figure link="/about/oe7xtr_home.png" caption="OE7XTR Krahberg" >}}       | {{< figure link="/about/oe7xtr_oetz.png" caption="OE7XTR Krahberg" >}}        |
+| {{< figure link="/about/oe7xbi_home.png" caption="OE7XBI Rangger Köpfl" >}}  | {{< figure link="/about/oe7xbi_oetz.png" caption="OE7XBI Rangger Köpfl" >}}   |
+| {{< figure link="/about/oe7xvr_home.png" caption="OE7XVR Valluga" >}}        | {{< figure link="/about/oe7xvr_oetz.png" caption="OE7XVR Valluga" >}}         |
+| {{< figure link="/about/oe7xrt_home.png" caption="OE7XRT Reutte" >}}         | {{< figure link="/about/oe7xrt_oetz.png" caption="OE7XRT Reutte" >}}          |
+| {{< figure link="/about/oe7xzr_home.png" caption="OE7XZR Zugspitze" >}}      | {{< figure link="/about/oe7xzr_oetz.png" caption="OE7XZR Zugspitze" >}}       |
+| {{< figure link="/about/oe7xgr_home.png" caption="OE7XGR Gefrorene Wand" >}} | {{< figure link="/about/oe7xgr_oetz.png" caption="OE7XGR Gefrorene Wand" >}}  |
+| {{< figure link="/about/oe7xot_home.png" caption="OE7XOT Obtarrenz" >}}      | {{< figure link="/about/oe7xot_oetz.png" caption="OE7XOT Obtarrenz" >}}       |
 
 For now, I only own some handheld radios so I do not reach those repeaters from
 my terrace. I can sometimes open the first two repeater
