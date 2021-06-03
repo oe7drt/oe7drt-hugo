@@ -71,7 +71,7 @@ You may also find [NextionDriverInstaller] helpful.
 
 Download the files from my github repository.
 
-- https://github.com/freefallcid/MMDVM-Nextion-Screen-Layouts
+- https://github.com/oe7drt/MMDVM-Nextion-Screen-Layouts
 
 *Have a look at the **releases** tab as there are more older versions available
 (the older layout looks ugly on the system page, but has buttons for

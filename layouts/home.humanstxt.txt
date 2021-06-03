@@ -8,8 +8,8 @@
 
   Last updated: {{ site.LastChange }}
   Language:     English
-  Built with:   Hugo {{ hugo.Version }} <https://gohugo.io>
-                Sublime Text 3 <https://www.sublimetext.com>
+  Built with:   Hugo <https://gohugo.io>
+                Sublime Text <https://www.sublimetext.com>
                 Netlify CI <https://www.netlify.com>
                 Github <https://github.com>
                 Gimp <https://www.gimp.org>

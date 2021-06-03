@@ -19,8 +19,7 @@ My QTH is **Längenfeld** - the locator for that is [JN57lb][1].
 
 ## Useful links on my website
 
-- [Blog posts on my equipment that I use](/tags/equipment/) -- also [have a look at the projects page]({{< relref "projects" >}}), as I tend to collect the main information
-  on my equipment over there
+- [My equipment](/equipment/)
 - [Some common "life update" postings](/tags/life/)
 - more to come...
 
