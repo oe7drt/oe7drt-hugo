@@ -6,12 +6,14 @@
   Site Owner:   Dominic Reich, OE7DRT
   Location:     JN57LB
 
-  Last updated: {{ site.LastChange }}
+  Last updated: {{ .Site.LastChange.Format "January 2, 2006 @ 15:04 MST" }}
   Language:     English
   Built with:   Hugo <https://gohugo.io>
                 Sublime Text <https://www.sublimetext.com>
+                Gimp <https://www.gimp.org>
+                Git <https://git-scm.com>
+                Vim <https://www.vim.org>
                 Netlify CI <https://www.netlify.com>
                 Github <https://github.com>
-                Gimp <https://www.gimp.org>
   older tools:  Visual Studio Code <https://code.visualstudio.com>
                 Sublime Merge <https://www.sublimemerge.com>
